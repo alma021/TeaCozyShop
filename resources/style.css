@@ -1,0 +1,134 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0px;
+  text-align: center;
+}
+
+/*CSS for header*/
+
+#header {
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+#header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span {
+padding-right: 10px
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+  padding-right: 10px;
+}
+
+/*CSS for main with 3 sections*/
+
+.main {
+  margin:auto;
+  padding-top: 69px;
+}
+
+/*CSS for top Section 1/3 Mission*/
+
+#mission {
+  width: 1200px;
+  height: 700px;
+  background-image: url("images/background.jpg");
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#mission .text {
+  background-color: black;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: auto;
+}
+
+/*CSS for middle Section 2/3 Featured Tea*/
+
+#ftea {
+  width: 1000px;
+  margin: 70px auto;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.item span,
+h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+/*CSS for bottom Section 3/3 Locations*/
+
+#locations {
+  background-image: url("images/locations.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin: 0 auto;
+}
+
+#locations h2 {
+  padding-top: 75px;
+  margin: 0px;
+}
+
+.locations {
+  width: 980px;
+  display: flex;
+  margin: 0px auto;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  margin: 20px;
+  opacity: 1.0;
+}
+
+/*CSS for .contact<div>*/
+
+.contact {
+  height: 200px;
+}
+
+/*CSS for footer*/
+
+#footer {
+  text-align: left;
+  margin-left: 20px;
+}
